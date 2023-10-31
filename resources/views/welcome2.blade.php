@@ -38,9 +38,11 @@
                 <tr>
                     <td><input type="text" name="addMoreInputFields[0][subject]" placeholder="Enter subject" class="form-control" />
                     </td>
-                    <td><button type="button" name="add" id="dynamic-ar" class="btn btn-outline-primary">Add Subject</button></td>
+                    <td>&nbsp;</td>
+                    {{-- <td><button type="button" name="add" id="dynamic-ar" class="btn btn-outline-primary">Add Subject</button></td> --}}
                 </tr>
             </table>
+            <button type="button" name="add" id="dynamic-ar" class="btn btn-outline-primary">Add Subject</button>
             <button type="submit" class="btn btn-outline-success btn-block">Save</button>
         </form>
     </div>
